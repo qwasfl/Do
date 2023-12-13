@@ -1,0 +1,77 @@
+.trademc-buyform-title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.trademc-buyform-input{
+  color: #2e4161;
+  font-size: 18px;
+  font-weight: 600;
+  border-width: 2px;
+  border-color: #2e4161;
+  border-style: solid;
+  border-radius: 4px;
+  background-color: #ffffff;
+  opacity: 0.949;
+  padding: 18px 20px;
+  width: 100%;
+  font-family: 'Noto Sans Regular';
+  box-shadow: 0px 15px 30px 0px rgba(34, 68, 115, 0.7);
+}
+.trademc-buyform-input::placeholder{
+  color: #2e4161;
+}
+.trademc-buyform-input:hover{
+  background-color: #fff;
+}
+.trademc-buyform-select select{
+  color: #2e4161;
+  font-size: 18px;
+  font-weight: 600;
+  border-width: 2px;
+  border-color: #2e4161;
+  border-style: solid;
+  border-radius: 4px;
+  background-color: #ffffff;
+  opacity: 0.949;
+  padding: 18px 20px;
+  width: 100%;
+  font-family: 'Noto Sans Regular';
+  box-shadow: 0px 15px 30px 0px rgba(34, 68, 115, 0.7);
+}
+.trademc-buyform-select select:hover{
+  background-color: #fff;
+}
+.trademc-buyform-button{
+  line-height: 1;
+  border: 0;
+  padding: 22px 36px;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #314360;
+  border-radius: 4px;
+  background: #f4e331;
+  box-shadow: 0px 20px 60px 0px rgba(255, 172, 42, 0.59);
+  position: relative;
+  z-index: 20;
+  transition: all 0.2s easy-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+.trademc-buyform-button:hover{
+  background-color: #FFFFFF;
+  box-shadow: 0px 20px 80px 0px #ffac2a;
+}
+
+.trademc-buyform-error{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border-width: 2px;
+  border-radius: 4px;
+  opacity: 0.949;
+  padding: 50px 20px;
+  width: 100%;
+  font-family: 'Noto Sans Regular';
+}
